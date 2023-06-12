@@ -13,9 +13,7 @@ const getMessage = (req, res) => {
 };
 
 const createMessage = (req, res) => {
-  // db.People.create({name: 'testing'})
-  // .then((res) => {console.log(res)})
-  // res.send('createPeople')
+ 
   db.Message.create(req.body)
   .then((createdMessage) => {
       if(!createdMessage){
