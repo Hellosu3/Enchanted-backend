@@ -15,7 +15,9 @@ const cors = require("cors");
 
 
 ///////////////////////////////
-// MiddleWare
+const corsOptions = {
+  origin: 'https://enchantedfrontend.herokuapp.com', // Replace with the actual URL of your frontend
+};
 ////////////////////////////////
 app.use(cors('*')); // to prevent cors errors, open access to all origins
 app.use(express.urlencoded({extended: true}))
