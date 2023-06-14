@@ -16,7 +16,7 @@ Introducing a personally curated wedding app, a testament to our commitment to p
 
 ## Technologies used
 
-
+React, Node.jsw, express.js, MongoDB, Tailwind, Heroku
 
 ## Models
 Guestbook Entry
